@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    height: 100%;
+}
+
+.my-box{
+    height: 250px;
+    width: 250px;
+}
+
+.box2{
+    height: 50px;
+    width: 250px;
+    background-color: blue;   
+    border: solid black 2px;
+}
+
+.nav__links{
+    display: flexbox;
+}
+
+.hr {
+    display: block;
+    margin: 0.5em auto;
+    border: solid gray 1px;
+  }
+  .body-background{
+    background-color: darkgray;
+  }
+
+  .footer__row-green{
+      height: 4px;
+      background-color: green;
+  }
+
+  .footer__row-gray{
+      height: 50px;
+      background-color: gray;
+  }
+
+  .footer-text{
+    padding: 10px;
+}
+
+.form-control-custom{
+    height: 200px;
+}
+
+.body__minimum-height{
+    min-height: 1000px;
+}
+
+.my-heading{
+    width: 75%;
+    position: relative;
+    left: 15%;
+    top: -60px;
+}
+
+.my-cow{
+    height: 100%;
+}
+
+.my-container{
+    max-width: 750px;
+}
+
+.main{
+    min-height: 100%;
+    padding-bottom: 100px;
+}
+
+.footer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.my-card{
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 0px;
+}
